@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Tetris Game JS</title>
+    <style>
+        #score{
+            display: inline-block;
+        }
+        div{
+            font-size: 25px;
+            font-weight: bold;
+            font-family: monospace;
+            text-align: center;
+        }
+        canvas{
+            display: inline-block;
+            margin:34 auto;
+        }
+    </style>
+</head>
+<body>
+   <div>This Game Was Created By <a target="_blank" href="https://www.youtube.com/c/codeexplained">Code Explained</a></div><br>
+    
+   <div class="container"> 
+        <canvas id="tetris" width="200" height="400"></canvas> 
+        
+        <canvas id="next" width="140" height="140"></canvas>
+        <canvas id="hold" width="140" height="140"></canvas></div>
+    <div>
+        Score : <div id="score">0</div>
+    </div>
+    
+    <script src="tetrominoes.js"></script>
+    <script src="project.js"></script>
+</body>
+</html>
